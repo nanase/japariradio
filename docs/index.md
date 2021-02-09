@@ -167,8 +167,25 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
     </tr>
     <tr>
       <th>図面</th>
-      <td>
-        準備中
+      <td class="no-image-border text-center">
+        <div class="inline-block">
+          <a href="{{site.baseurl}}/assets/pdf/rev1_schematics.pdf" target="_blank">
+            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_schematics.jpg" style="max-width: 240px" /><br />
+            回路図
+          </a>
+        </div>
+        <div class="inline-block">
+          <a href="{{site.baseurl}}/assets/pdf/rev1_pcb_top.pdf" target="_blank">
+            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_pcb_top.jpg" style="max-width: 240px" /><br />
+            基板表面
+          </a>
+        </div>
+        <div class="inline-block">
+          <a href="{{site.baseurl}}/assets/pdf/rev1_pcb_bottom.pdf" target="_blank">
+            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_pcb_bottom.jpg" style="max-width: 240px" /><br />
+            基板裏面
+          </a>
+        </div>
       </td>
     </tr>
   </tbody>

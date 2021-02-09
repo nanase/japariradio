@@ -23,10 +23,14 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
   <tbody>
     <tr>
       <td>
-        <a href="{{site.baseurl}}/assets/img/rev1_photo.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_photo.jpg" /></a>
+        <a href="{{site.baseurl}}/assets/img/rev1_photo_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_photo.jpg" /></a><br />
+        38g の手のひらサイズ<br />
+        持ち歩きにも便利です
       </td>
       <td>
-        <a href="{{site.baseurl}}/assets/img/rev1_photo2.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_photo2.jpg" /></a>
+        <a href="{{site.baseurl}}/assets/img/rev1_photo2_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_photo2.jpg" /></a><br />
+        背面は部品がなくすっきり<br />
+        ロゴを目立たせています
       </td>
     </tr>
   </tbody>

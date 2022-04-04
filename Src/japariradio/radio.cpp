@@ -2,12 +2,12 @@
 
 #include "japariradio/page_master.hpp"
 #include "lib/M24C64.hpp"
-#include "lib/RDA5807M.h"
+#include "lib/RDA5807M.hpp"
 #include "lib/button.hpp"
-#include "lib/c_font.h"
-#include "lib/c_image.h"
+#include "lib/c_font.hpp"
+#include "lib/c_image.hpp"
 #include "lib/settings.hpp"
-#include "lib/ssd1306.h"
+#include "lib/ssd1306.hpp"
 #include "main.h"
 
 #if defined(STM32F303x8)

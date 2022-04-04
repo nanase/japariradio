@@ -1,4 +1,4 @@
-#include "lib/ssd1306.h"
+#include "lib/ssd1306.hpp"
 
 // Screenbuffer
 static uint8_t ssd1306_buffer[SSD1306_WIDTH * SSD1306_HEIGHT / 8];

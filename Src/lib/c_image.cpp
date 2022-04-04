@@ -1,6 +1,6 @@
-#include "lib/c_image.h"
+#include "lib/c_image.hpp"
 
-#include "lib/ssd1306.h"
+#include "lib/ssd1306.hpp"
 
 extern SSD1306_t SSD1306;
 

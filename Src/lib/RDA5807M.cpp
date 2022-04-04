@@ -11,9 +11,9 @@
  * See the header file for better function documentation.
  */
 
-#include "lib/RDA5807M.h"
+#include "lib/RDA5807M.hpp"
 
-#include "lib/RDA5807M-private.h"
+#include "lib/RDA5807M-private.hpp"
 
 RDA5807M::RDA5807M(I2C_HandleTypeDef *dev) {
   this->dev = dev;

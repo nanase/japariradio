@@ -1,10 +1,10 @@
-#include "config/config.h"
+#include "config/config.hpp"
 #include "japariradio/page.hpp"
-#include "lib/RDA5807M.h"
-#include "lib/c_font.h"
-#include "lib/c_image.h"
+#include "lib/RDA5807M.hpp"
+#include "lib/c_font.hpp"
+#include "lib/c_image.hpp"
 #include "lib/settings.hpp"
-#include "lib/ssd1306.h"
+#include "lib/ssd1306.hpp"
 
 extern char buf[32];
 extern RDA5807M radio;

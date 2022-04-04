@@ -13,4 +13,6 @@ void cImage_write(const CImage *image);
 void cImage_writeCropX(const CImage *image, uint8_t width);
 void cImage_writeSlideY(const CImage *image, uint8_t slide);
 
+#include "image_data.hpp"
+
 #endif

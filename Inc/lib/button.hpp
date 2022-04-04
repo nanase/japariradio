@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-#include "config/config.h"
+#include "config/config.hpp"
 
 class Button {
  public:

@@ -1,6 +1,6 @@
-#include "lib/c_font.h"
+#include "lib/c_font.hpp"
 
-#include "lib/ssd1306.h"
+#include "lib/ssd1306.hpp"
 
 extern SSD1306_t SSD1306;
 

@@ -1,6 +1,6 @@
 #include "japariradio/page.hpp"
 
-#include "lib/ssd1306.h"
+#include "lib/ssd1306.hpp"
 
 void Page::initialize() {
   ssd1306_fill(ssd1306_black);

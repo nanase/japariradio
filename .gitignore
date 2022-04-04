@@ -7,7 +7,7 @@
 EWARM/
 Drivers/
 .mxproject
-*_FLASH.ld
+build/
 
 # Windows image file caches
 Thumbs.db

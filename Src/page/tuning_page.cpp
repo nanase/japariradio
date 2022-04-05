@@ -23,7 +23,7 @@ extern const CImage image_blank;
 bool seekDirection = false;
 
 void fading(uint16_t frequency);
-void settingSaving(uint16_t frequency);
+void displayOff(uint16_t frequency);
 void updateImages(uint16_t frequency);
 
 void TuningPage::drawWholeScreen() {
@@ -32,7 +32,7 @@ void TuningPage::drawWholeScreen() {
   cFont_writeString(&font_7x10, "MHz");
 
   ssd1306_setFillMode(false);
-  ssd1306_setCursor(82, 16);
+  ssd1306_setCursor(82, 14);
   cFont_writeString(&font_11x18, ".");
 
   // radio
@@ -57,9 +57,9 @@ bool TuningPage::draw() {
   sprintf(buf, "%3d", frequency / 100);
   cFont_writeString(&font_16x26, buf);
 
-  fading(frequency);
   updateImages(frequency);
-  settingSaving(frequency);
+  fading(frequency);
+  displayOff(frequency);
 
   return false;
 }
@@ -103,28 +103,9 @@ void updateImages(uint16_t frequency) {
   }
 }
 
-void settingSaving(uint16_t frequency) {
-  static uint16_t oldFrequency = 0;
-  static uint8_t delayCount    = 0;
-
-  // fade out contrast
-  if (frequency != oldFrequency) {
-    delayCount   = 0;
-    oldFrequency = frequency;
-  } else {
-    if (delayCount < SETTING_DELAY) {
-      delayCount++;
-
-      if (delayCount == SETTING_DELAY) {
-        settings.setValue(frequency);
-      }
-    }
-  }
-}
-
 void fading(uint16_t frequency) {
   static uint16_t oldFrequency = 0;
-  static uint8_t fadeCount     = 0;
+  static uint16_t fadeCount    = 0;
   static uint8_t contrast      = CONTRAST_MAX;
 
   // fade out contrast
@@ -136,12 +117,33 @@ void fading(uint16_t frequency) {
   } else {
     if (fadeCount < FADE_DELAY) {
       fadeCount++;
+
+      if (fadeCount == SETTING_SAVE_DELAY) {
+        settings.setValue(frequency);
+      }
     } else {
       if (contrast > CONTRAST_MIN) {
         contrast -= FADE_DECREMENT;
         ssd1306_setContrast(contrast);
       }
     }
+  }
+}
+
+void displayOff(uint16_t frequency) {
+  static uint16_t oldFrequency    = 0;
+  static uint16_t displayOffCount = 0;
+
+  // fade out contrast
+  if (frequency == oldFrequency) {
+    if (displayOffCount < DISPLAY_OFF_DELAY) {
+      displayOffCount++;
+    } else {
+      ssd1306_setContrast(0);
+    }
+  } else {
+    displayOffCount = 0;
+    oldFrequency    = frequency;
   }
 }
 

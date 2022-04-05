@@ -132,8 +132,7 @@ void setup() {
 }
 
 void loop() {
-  static uint8_t count = 0;
-  uint32_t tick        = HAL_GetTick();
+  uint32_t tick = HAL_GetTick();
 
   if (buttonA.checkLongPressed(tick))
     pageMaster.longPressAButton();
@@ -145,9 +144,7 @@ void loop() {
   else if (buttonB.checkClicked())
     pageMaster.pressBButton();
 
-  if (++count > 100) {
-    pageMaster.update();
-  }
+  pageMaster.update();
 
   HAL_Delay(1);
 }

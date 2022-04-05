@@ -41,13 +41,23 @@ static const uint8_t glyph_11x18_data_77[]  = { 0xc3, 0x33, 0x23, 0x33, 0x24, 0x
 static const uint8_t glyph_11x18_data_122[] = { 0xf0, 0xf0, 0xf0, 0xb9, 0x29, 0x82, 0x82, 0x82,
                                                 0x82, 0x82, 0x82, 0x89, 0x29, 0xf0, 0xf0, 0x40 };
 
-static const CGlyph glyphs_11x18[] = { { ' ', 14, glyph_11x18_data_32 }, { '-', 14, glyph_11x18_data_45 },
-                                       { '.', 14, glyph_11x18_data_46 }, { '0', 29, glyph_11x18_data_48 },
-                                       { '1', 20, glyph_11x18_data_49 }, { '2', 20, glyph_11x18_data_50 },
-                                       { '3', 21, glyph_11x18_data_51 }, { '4', 22, glyph_11x18_data_52 },
-                                       { '5', 21, glyph_11x18_data_53 }, { '6', 25, glyph_11x18_data_54 },
-                                       { '7', 17, glyph_11x18_data_55 }, { '8', 25, glyph_11x18_data_56 },
-                                       { '9', 25, glyph_11x18_data_57 }, { 'H', 29, glyph_11x18_data_72 },
-                                       { 'M', 38, glyph_11x18_data_77 }, { 'z', 16, glyph_11x18_data_122 } };
+static const CGlyph glyphs_11x18[] = {
+  { ' ', 14, glyph_11x18_data_32 },
+  // { '-', 14, glyph_11x18_data_45 },
+  { '.', 14, glyph_11x18_data_46 },
+  // { '0', 29, glyph_11x18_data_48 },
+  // { '1', 20, glyph_11x18_data_49 },
+  // { '2', 20, glyph_11x18_data_50 },
+  // { '3', 21, glyph_11x18_data_51 },
+  // { '4', 22, glyph_11x18_data_52 },
+  // { '5', 21, glyph_11x18_data_53 },
+  // { '6', 25, glyph_11x18_data_54 },
+  // { '7', 17, glyph_11x18_data_55 },
+  // { '8', 25, glyph_11x18_data_56 },
+  // { '9', 25, glyph_11x18_data_57 },
+  // { 'H', 29, glyph_11x18_data_72 },
+  // { 'M', 38, glyph_11x18_data_77 },
+  // { 'z', 16, glyph_11x18_data_122 },
+};
 
-const CFont font_11x18 = { 11, 18, 16, glyphs_11x18 };
+const CFont font_11x18 = { 11, 18, 2, glyphs_11x18 };

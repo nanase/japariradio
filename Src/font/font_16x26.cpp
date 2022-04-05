@@ -42,11 +42,19 @@ static const uint8_t glyph_16x26_data_57[] = { 0x57, 0x89, 0x64, 0x25, 0x44, 0x4
                                                0x3d, 0x56, 0x14, 0xb5, 0xb4, 0xc4, 0xb5, 0xb4, 0x43, 0x35,
                                                0x5a, 0x78, 0xf0, 0xf0, 0xf0, 0xf0, 0xf0, 0xa0 };
 
-static const CGlyph glyphs_16x26[] = { { ' ', 28, glyph_16x26_data_32 }, { '-', 27, glyph_16x26_data_45 },
-                                       { '0', 44, glyph_16x26_data_48 }, { '1', 27, glyph_16x26_data_49 },
-                                       { '2', 28, glyph_16x26_data_50 }, { '3', 29, glyph_16x26_data_51 },
-                                       { '4', 34, glyph_16x26_data_52 }, { '5', 28, glyph_16x26_data_53 },
-                                       { '6', 38, glyph_16x26_data_54 }, { '7', 27, glyph_16x26_data_55 },
-                                       { '8', 41, glyph_16x26_data_56 }, { '9', 38, glyph_16x26_data_57 } };
+static const CGlyph glyphs_16x26[] = {
+  { ' ', 28, glyph_16x26_data_32 },
+  //  { '-', 27, glyph_16x26_data_45 },
+  { '0', 44, glyph_16x26_data_48 },
+  { '1', 27, glyph_16x26_data_49 },
+  { '2', 28, glyph_16x26_data_50 },
+  { '3', 29, glyph_16x26_data_51 },
+  { '4', 34, glyph_16x26_data_52 },
+  { '5', 28, glyph_16x26_data_53 },
+  { '6', 38, glyph_16x26_data_54 },
+  { '7', 27, glyph_16x26_data_55 },
+  { '8', 41, glyph_16x26_data_56 },
+  { '9', 38, glyph_16x26_data_57 },
+};
 
-const CFont font_16x26 = { 16, 26, 12, glyphs_16x26 };
+const CFont font_16x26 = { 16, 26, 11, glyphs_16x26 };

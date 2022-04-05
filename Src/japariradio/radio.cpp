@@ -37,28 +37,36 @@ void title() {
   radio.begin(RDA5807M_BAND_WORLD);
   radio.setVolume(0);
   radio.setFrequency(settings.getValue());
-  HAL_Delay(1000);
+  HAL_Delay(580);
 
   {
     // title: Japari
     ssd1306_setFillMode(true);
-    ssd1306_setCursor(40, 0);
-    cImage_write(&image_title_japari);
-    ssd1306_updateScreen();
+
+    for (uint8_t i = 0; i <= 21; i++) {
+      ssd1306_setCursor(40, 21 - i);
+      cImage_writeCropY(&image_title_japari, i);
+      ssd1306_updateScreen();
+      HAL_Delay(20);
+    }
   }
 
   // 2
   radio.begin(RDA5807M_BAND_WORLD);
   radio.setVolume(0);
   radio.setFrequency(settings.getValue());
-  HAL_Delay(1000);
+  HAL_Delay(680);
 
   {
     // title: Radio
-    ssd1306_setFillMode(false);
-    ssd1306_setCursor(64, 16);
-    cImage_write(&image_title_radio);
-    ssd1306_updateScreen();
+    ssd1306_setFillMode(true);
+
+    for (uint8_t i = 0; i <= 16; i++) {
+      ssd1306_setCursor(64, 16 + 16 - i);
+      cImage_writeCropY(&image_title_radio, i);
+      ssd1306_updateScreen();
+      HAL_Delay(20);
+    }
   }
 
   // 3

@@ -4,8 +4,8 @@ title: JapariRadio
 
 header_top: true
 header_title: JapariRadio
-header_version: Rev.1
-header_image: /assets/img/title/rev1.jpg
+header_version: Rev.3
+header_image: /assets/img/title/rev3.jpg
 header_label: [supported]
 
 subpages:
@@ -17,18 +17,18 @@ subpages:
 
 ## 特徴
 
-JapariRadio は手のひらサイズの FM ラジオです。シンプル操作でどこでも使いやすい 2 ボタン、ボリュームを採用。
+JapariRadio は手のひらサイズの FM ラジオ受信機です。シンプル操作でどこでも使いやすい 2 ボタン、音量ボリュームを採用し、さらに単 4 電池 1 本から動作します。
 
 <table class="borderless-table no-image-border less-padding foot-note text-center center-table" style="max-width: 600px">
   <tbody>
     <tr>
       <td>
-        <a href="{{site.baseurl}}/assets/img/rev1_photo_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_photo.jpg" /></a><br />
-        38g の手のひらサイズ<br />
+        <a href="{{site.baseurl}}/assets/img/rev3_photo_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev3_photo.jpg" /></a><br />
+        51g の手のひらサイズ<br />
         持ち歩きにも便利です
       </td>
       <td>
-        <a href="{{site.baseurl}}/assets/img/rev1_photo2_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_photo2.jpg" /></a><br />
+        <a href="{{site.baseurl}}/assets/img/rev3_photo2_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev3_photo2.jpg" /></a><br />
         背面は部品がなくすっきり<br />
         ロゴを目立たせています
       </td>
@@ -38,25 +38,26 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
 
 ## つかいかた
 
-- 電源スイッチ：未使用時は電源を切れます。
-- 選曲 / シークボタン：0.1 MHz ごとに選曲ができます。長押しでシークができます。
+- 電池スイッチ：電池使用時に使います。
+- USB スイッチ：未使用時は電源を切れます。
+- 選局 / シークボタン：0.1 MHz ごとに選曲ができます。長押しでシークができます。
 - 音量ボリューム：シンプルで使いやすいロータリーボリュームを採用しています。
-- オーディオ出力：ステレオ対応の 3.5mm イヤホンジャックです。
+- オーディオ出力ジャック：ステレオ対応の 3.5mm イヤホンジャックです。
 - 外付けアンテナジャック：受信感度が低く屋内でも快適に聴取できます。
 
 <div class="no-image-border text-center center-table" style="max-width: 600px">
-  <a href="{{site.baseurl}}/assets/img/rev1_inputs.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev1_inputs.jpg" /></a>
+  <a href="{{site.baseurl}}/assets/img/rev3_usage_hd.jpg"><img class="no-image-border less-padding width-100p rounded-img" src="{{site.baseurl}}/assets/img/rev3_usage.jpg" /></a>
 </div>
 
 ## 使用上の注意
 
 - ディスプレイに有機 EL を使用しているため、長期間使用すると輝度に偏りが発生しますが異常ではありません。
-- 受信感度が低い条件下では十分に聴取できません。外付けアンテナを使用すると受信感度が改善することがあります。
+- 受信感度が低い条件下で十分に聴取できない場合、外付けアンテナを使用すると受信感度が改善することがあります。
 - 地域ごとの FM 局一覧はこちら: [NHK](https://www.nhk.or.jp/radio/info/frequency.html?ch=fm) [民放](https://www.soumu.go.jp/menu_seisaku/ictseisaku/housou_suishin/fm-list.html)
 
 ## こんなときは
 
-- 電源が入らない、ディスプレイに何も表示されない：USB ケーブルを確認してください。
+- 電源が入らない、ディスプレイに何も表示されない：USB ケーブルの接続を確認してください。
 - ディスプレイが暗い：受信周波数を変えてしばらくすると、省電力とディスプレイの寿命向上のため自動的に画面輝度が低くなります。再度受信周波数を変えると画面の輝度が元に戻ります。
 - 雑音しか聞こえない：受信感度の高い屋外で使用するか、外付けアンテナを使ってください。
 
@@ -66,11 +67,11 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
   <tbody>
     <tr>
       <th>製品名</th>
-      <td>JapariRadio Rev.1</td>
+      <td>JapariRadio Rev.3</td>
     </tr>
     <tr>
       <th>製作期</th>
-      <td>2021.02</td>
+      <td>2022.05</td>
     </tr>
   </tbody>
 </table>
@@ -120,7 +121,7 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
     </tr>
     <tr>
       <th>輝度</th>
-      <td>無操作時は自動で低輝度モードへ移行</td>
+      <td>無操作時は自動で低輝度モードへ移行、時間経過で消灯</td>
     </tr>
   </tbody>
 </table>
@@ -129,7 +130,7 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
   <tbody>
     <tr>
       <th>電源</th>
-      <td>DC 5V (USBマイクロB端子)</td>
+      <td>DC 5V (USB Type-C 端子) または 単4電池 1～2 本</td>
     </tr>
     <tr>
       <th>消費電力</th>
@@ -141,16 +142,16 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
 <table class="spec-table">
   <tbody>
     <tr>
-      <th>大きさ（本体）</th>
-      <td>約 43.0（幅） x12.6（高さ） x43.0（奥行） mm</td>
+      <th>大きさ（本体のみ）</th>
+      <td>約 50.0（幅） x18.0（高さ） x45.0（奥行） mm</td>
     </tr>
     <tr>
-      <th>大きさ（ケース含む）</th>
-      <td>約 50.0（幅） x19.6（高さ） x50.0（奥行） mm</td>
+      <th>大きさ（突起物含む）</th>
+      <td>約 53.5（幅） x23.0（高さ） x52.5（奥行） mm</td>
     </tr>
     <tr>
       <th>質量</th>
-      <td>約 38 g</td>
+      <td>約 51 g（電池含む）</td>
     </tr>
   </tbody>
 </table>
@@ -160,29 +161,23 @@ JapariRadio は手のひらサイズの FM ラジオです。シンプル操作�
 <table class="spec-table">
   <tbody>
     <tr>
-      <th>マニュアル</th>
-      <td>
-        準備中
-      </td>
-    </tr>
-    <tr>
       <th>図面</th>
       <td class="no-image-border text-center">
         <div class="inline-block">
-          <a href="{{site.baseurl}}/assets/pdf/rev1_schematics.pdf" target="_blank">
-            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_schematics.jpg" style="max-width: 240px" /><br />
+          <a href="{{site.baseurl}}/assets/pdf/rev3_schematics.pdf" target="_blank">
+            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev3_schematics.jpg" style="max-width: 240px" /><br />
             回路図
           </a>
         </div>
         <div class="inline-block">
-          <a href="{{site.baseurl}}/assets/pdf/rev1_pcb_top.pdf" target="_blank">
-            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_pcb_top.jpg" style="max-width: 240px" /><br />
+          <a href="{{site.baseurl}}/assets/pdf/rev3_pcb_top.pdf" target="_blank">
+            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev3_pcb_top.jpg" style="max-width: 240px" /><br />
             基板表面
           </a>
         </div>
         <div class="inline-block">
-          <a href="{{site.baseurl}}/assets/pdf/rev1_pcb_bottom.pdf" target="_blank">
-            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_pcb_bottom.jpg" style="max-width: 240px" /><br />
+          <a href="{{site.baseurl}}/assets/pdf/rev3_pcb_bottom.pdf" target="_blank">
+            <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev3_pcb_bottom.jpg" style="max-width: 240px" /><br />
             基板裏面
           </a>
         </div>

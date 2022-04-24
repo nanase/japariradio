@@ -118,6 +118,26 @@ subpages:
             外装ケースをアクリルから変更し、プリント基板および真鍮スペーサに変更しました。
           </li>
         </ul>
+        <div class="no-image-border text-center">
+          <div class="inline-block">
+            <a href="{{site.baseurl}}/assets/pdf/rev3_schematics.pdf" target="_blank">
+              <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev3_schematics.jpg" style="max-width: 240px" /><br />
+              回路図
+            </a>
+          </div>
+          <div class="inline-block">
+            <a href="{{site.baseurl}}/assets/pdf/rev3_pcb_top.pdf" target="_blank">
+              <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev3_pcb_top.jpg" style="max-width: 240px" /><br />
+              基板表面
+            </a>
+          </div>
+          <div class="inline-block">
+            <a href="{{site.baseurl}}/assets/pdf/rev3_pcb_bottom.pdf" target="_blank">
+              <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev3_pcb_bottom.jpg" style="max-width: 240px" /><br />
+              基板裏面
+            </a>
+          </div>
+        </div>
       </td>
     </tr>
     <tr>
@@ -126,7 +146,31 @@ subpages:
         <span class="foot-note">Rev.1</span>
       </th>
       <td>
-        <div>公開</div>
+        <ul>
+          <li>
+            公開
+          </li>
+        </ul>
+        <div class="no-image-border text-center">
+          <div class="inline-block">
+            <a href="{{site.baseurl}}/assets/pdf/rev1_schematics.pdf" target="_blank">
+              <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_schematics.jpg" style="max-width: 240px" /><br />
+              回路図
+            </a>
+          </div>
+          <div class="inline-block">
+            <a href="{{site.baseurl}}/assets/pdf/rev1_pcb_top.pdf" target="_blank">
+              <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_pcb_top.jpg" style="max-width: 240px" /><br />
+              基板表面
+            </a>
+          </div>
+          <div class="inline-block">
+            <a href="{{site.baseurl}}/assets/pdf/rev1_pcb_bottom.pdf" target="_blank">
+              <img src="{{site.baseurl}}/assets/img/pdf_thumb/rev1_pcb_bottom.jpg" style="max-width: 240px" /><br />
+              基板裏面
+            </a>
+          </div>
+        </div>
       </td>
     </tr>
   </tbody>
